@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cna.mobileprogramming.movieBuff.MovieDetailsActivity">
+
+    <ImageView
+        android:id="@+id/imgMovieDetails"
+        android:layout_width="407dp"
+        android:layout_height="372dp"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="19dp" />
+
+    <TextView
+        android:id="@+id/txtMovieName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtMovieName"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <TextView
+        android:id="@+id/txtMovieCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtMovieCategory"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="499dp" />
+</LinearLayout>
